@@ -128,6 +128,7 @@ class FixedIncomeScreen extends StatelessWidget {
                       const SizedBox(height: 30),
                       AppSections(
                         lable: AppStrings.Bonds,
+                        padding: EdgeInsets.zero,
                         child: Column(
                           children: [
                             ...DemoData.bonds.map(
